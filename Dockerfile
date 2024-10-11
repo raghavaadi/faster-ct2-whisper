@@ -1,5 +1,5 @@
 # Use a base image with CUDA 12.x to match the host's CUDA version
-FROM nvidia/cuda:12.2.0-cudnn8-devel-ubuntu20.04
+FROM nvidia/cuda:12.2.2-cudnn8-devel-ubuntu20.04
 
 # Set environment variables
 ENV DEBIAN_FRONTEND=noninteractive
